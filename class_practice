@@ -1,0 +1,55 @@
+from pyexpat import model
+
+
+class Cell_phone:
+
+    def __init__(self, name, model, retail_price):
+        self.__name= name
+        self.__model= model
+        self.__retailprice= retail_price
+
+    def set_manufact(self,new_name):
+        self.__name=new_name
+
+    def set_model(self,new_model):
+        self.__model= new_model
+    
+    def set_retailprice(self,new_price):
+        self.__retailprice = new_price
+
+    def get_manufact(self):
+        return self.__name
+    
+    def get_model(self):
+        return self.__model
+
+    def get_manufact(self):
+        return self.__retailprice
+
+
+
+
+import datetime
+
+
+class Student:
+    registration_date=date.today()
+
+    def __init__(self,id,name,dob,classification):
+        self.id=id
+        self.name= name 
+        self.DOB= dob
+        self.classification==classification
+        self.register=""
+
+    def stuent_age(self):
+        return date.today()-self.DOB
+    
+    def registration_time(self):
+        if self.classification=="F":
+            return "April1-April3"
+
+# __str__()
+
+       
+

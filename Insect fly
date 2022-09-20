@@ -1,4 +1,0 @@
-import Class_insect as i
-
-
-fly=i.Insect()
